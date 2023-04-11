@@ -1,6 +1,7 @@
 import { Container, Row, Col } from "react-bootstrap";
 import { ArrowRightCircle } from "react-bootstrap-icons";
-import headerImg from "../assets/header-img.svg";
+// import headerImg from "../assets/IMG_7443.png";
+import headerImg from "../assets/header-img.png";
 
 
 export const Banner = () => {
@@ -15,10 +16,7 @@ export const Banner = () => {
                 Hi! I'm Chen Qu
               </h1>
               <p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy
-                text ever since the 1500s, when an unknown printer took a galley
-                of type and scrambled it to make a type specimen book.
+              Highly motivated and energetic Year 4 student with strong coding and interpersonal skills. Honours Specialization in Computer Science. I'm looking for software development job to gain practical experience.
               </p>
               <button onClick={() => console.log("connect")}>
                 Let’s Connect <ArrowRightCircle size={25} />
@@ -27,7 +25,7 @@ export const Banner = () => {
           </Col>
           <Col xs={12} md={6} xl={5}>
             <div className="banner-img">
-              <img src={headerImg} alt="banner-img" border="0" />
+              <img src={headerImg} alt="banner-img" />
             </div>
           </Col>
         </Row>
