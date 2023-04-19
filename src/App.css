@@ -320,7 +320,7 @@ nav.navbar .navbar-toggler-icon:after {
 .project .card {
   width: 72%;
   margin: 0 auto;
-  border-radius: 50px;
+  border-radius: 30px;
   background-color: rgb(255 255 255 / 10%);
 }
 
